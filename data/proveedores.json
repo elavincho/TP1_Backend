@@ -68,5 +68,15 @@
     "telefono": "11-3333-4444",
     "direccion": "Av. Siempre Viva 123",
     "razonSocial": null
+  },
+  {
+    "id": 8,
+    "tipoDoc": "CUIT",
+    "nroDoc": "30-22233344-9",
+    "nombre": null,
+    "email": "limpitosrl@gmail.com",
+    "telefono": "11-3333-9999",
+    "direccion": "Adolfo Alsina 125 - CABA",
+    "razonSocial": "Limpito SRL"
   }
 ]

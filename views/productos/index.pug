@@ -1,4 +1,4 @@
-extends layout
+extends ../layout
 
 block contenido
     h1 Inventario Actual de Productos
@@ -20,16 +20,16 @@ block contenido
             tbody
                 each prod in productos
                     tr
-                        td= prod.id
+                        td(style="text-align: center;")= prod.id
                         td= prod.nombre
                         td= prod.categoria
-                        td $ #{prod.precio}
-                        td= prod.stockActual
+                        td(style="text-align: right;") $ #{prod.precio}
+                        td(style="text-align: center;")= prod.stockActual
                         td
                             if prod.stockActual <= prod.stockMinimo
-                                span(style="color: red; font-weight: bold;") STOCK BAJO - REPONER
+                                span(style="color: red; font-weight: bold; display:flex; text-align: center;") STOCK BAJO
                             else
-                                span(style="color: green; font-weight: bold;") STOCK OK
+                                span(style="color: green; font-weight: bold; display:flex; text-align: center;") STOCK OK
                         td
                             div.acciones-container 
                                 a(href=`/editar/${prod.id}`) Editar
