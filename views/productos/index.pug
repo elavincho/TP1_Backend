@@ -4,7 +4,7 @@ block contenido
     h1 Stock Actual de Productos
 
     div(style='text-align: right; margin-bottom: 15px;')
-            a.btn-nuevo(href='/nuevo') + Registrar Producto
+            a.btn-nuevo(href='/productos/nuevo') + Registrar Producto
 
     if productos.length > 0
         table
@@ -32,9 +32,9 @@ block contenido
                                 span(style="color: green; font-weight: bold; display:flex; text-align: center;") STOCK OK
                         td
                             div.acciones-container 
-                                a(href=`/editar/${prod.id}`) Editar
+                                a(href=`/productos/editar/${prod.id}`) Editar
 
-                                form(action=`/eliminar/${prod.id}`, method="POST" style="display:inline" onsubmit="return confirm('¿Está seguro que desea eliminar este producto?')")
+                                form(action=`/productos/eliminar/${prod.id}`, method="POST" style="display:inline" onsubmit="return confirm('¿Está seguro que desea eliminar este producto?')")
                                     button.btn-accion.btn-borrar(type="submit") Eliminar
                 else
                     p No hay productos registrados en el sistema.

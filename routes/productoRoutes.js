@@ -4,8 +4,7 @@ const productoController = require('../controllers/productoController');
 
 // cambio el home
 // Ruta principal: Listado
-// router.get('/', productoController.index);
-router.get('/producto', productoController.index);
+router.get('/', productoController.index);
 
 // Rutas de creación
 router.get('/nuevo', productoController.formCrear);

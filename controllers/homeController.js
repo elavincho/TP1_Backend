@@ -1,4 +1,4 @@
-const home = require('../models/Home');
+const home = require('../models/hHome');
 
 const homeController = {
     // 1. Renderiza la lista completa en la home

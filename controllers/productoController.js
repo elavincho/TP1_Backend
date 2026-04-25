@@ -24,9 +24,7 @@ const productoController = {
         try {
             // Pasamos todo el req.body que ahora contiene el ID manual
             modeloProducto.crear(req.body);
-
-            // Si todo sale bien, redirige a la lista
-            res.redirect('/');
+            res.redirect('/productos');
         } catch (error) {
             // Guardamos los datos enviados para devolverlos a la vista
             const datosCargados = req.body;
@@ -55,13 +53,13 @@ const productoController = {
     // Procesa la actualización
     actualizar: (req, res) => {
         modeloProducto.actualizar(req.params.id, req.body);
-        res.redirect('/');
+        res.redirect('/productos');
     },
 
     // Procesa la eliminación
     eliminar: (req, res) => {
         modeloProducto.eliminar(req.params.id);
-        res.redirect('/');
+        res.redirect('/productos');
     }
 };
 
