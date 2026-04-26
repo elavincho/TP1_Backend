@@ -38,5 +38,15 @@
     "telefono": "351789564",
     "direccion": "Hola Susana 8822",
     "razonSocial": "Hola SRL"
+  },
+  {
+    "id": 5,
+    "tipoDoc": "DNI",
+    "nroDoc": "12121212",
+    "nombre": "Speedy González",
+    "email": "speedy@gmail.com",
+    "telefono": "11-4555-7777",
+    "direccion": "Av. Warner Bros 178 - Holllywood",
+    "razonSocial": null
   }
 ]

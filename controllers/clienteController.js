@@ -9,6 +9,14 @@ const clienteController = {
         });
     },
 
+    listar: (req, res) => {
+        const clientes = modeloCliente.listarTodos();
+        res.render('clientes/listar', {
+            titulo: 'Clientes - TodoStock S.A.',
+            clientes
+        });
+    },
+
     formCrear: (req, res) => {
         res.render('clientes/crear', {
             titulo: 'Registrar Nuevo Cliente',

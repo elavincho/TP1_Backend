@@ -298,13 +298,14 @@ form div a {
 
 .contenedor {
     display: flex;
+    flex-wrap: wrap;
     border-radius: 5px;
     /* background-image: url('/img/business.jpg'); */
     background-image: url('/img/finanzas.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
+    min-height: 500px;
     justify-content: space-between;
     align-items: center;
     gap: 15px;
