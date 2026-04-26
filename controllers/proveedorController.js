@@ -2,12 +2,18 @@ const modeloProveedor = require('../models/Proveedor');
 
 const proveedorController = {
     index: (req, res) => {
-        const proveedores = modeloProveedor.listarTodos();
         res.render('proveedores/index', {
             titulo: 'Proveedores - TodoStock S.A.',
-            proveedores
         });
     },
+
+     listar: (req, res) => {
+            const proveedores = modeloProveedor.listarTodos();
+            res.render('proveedores/listar', {
+                titulo: 'Proveedores- TodoStock S.A.',
+                proveedores
+            });
+        },
 
     formCrear: (req, res) => {
         res.render('proveedores/crear', {

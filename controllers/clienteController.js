@@ -2,10 +2,10 @@ const modeloCliente = require('../models/Cliente');
 
 const clienteController = {
     index: (req, res) => {
-        const clientes = modeloCliente.listarTodos();
+        // const clientes = modeloCliente.listarTodos();
         res.render('clientes/index', {
             titulo: 'Clientes - TodoStock S.A.',
-            clientes
+            // clientes
         });
     },
 

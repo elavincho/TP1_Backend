@@ -14,7 +14,7 @@ app.set("views", path.join(__dirname, "views"));
 // Middlewares
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true })); // Para leer formularios
-app.use(express.json()); // Para Thunder Client
+app.use(express.json());
 
 // Uso de las rutas
 app.use("/", homeRoutes);
