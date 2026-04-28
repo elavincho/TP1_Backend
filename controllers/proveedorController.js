@@ -7,7 +7,7 @@ const proveedorController = {
         });
     },
 
-     listar: (req, res) => {
+    listar: (req, res) => {
             const proveedores = modeloProveedor.listarTodos();
             res.render('proveedores/listar', {
                 titulo: 'Proveedores- TodoStock S.A.',

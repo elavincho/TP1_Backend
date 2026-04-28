@@ -10,8 +10,8 @@ const finanzasController = {
 
     // procesar clientes
     const clientes = modeloCliente.listarTodos();
-    clientes.forEach((c) => {
-      const saldo = parseFloat(c.saldoCuentaCorriente) || 0;
+      clientes.forEach((c) => {
+        const saldo = parseFloat(c.saldoCuentaCorriente) || 0;
 
       if (saldo > 0) totalCobrar += saldo;
       if (saldo < 0) totalPagar += Math.abs(saldo);

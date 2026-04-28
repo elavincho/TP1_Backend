@@ -306,8 +306,8 @@ form div a {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 500px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 15px;
-
 }
+
