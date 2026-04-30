@@ -78,5 +78,15 @@
     "telefono": "11-3333-9999",
     "direccion": "Adolfo Alsina 125 - CABA",
     "razonSocial": "Limpito SRL"
+  },
+  {
+    "id": 9,
+    "tipoDoc": "DNI",
+    "nroDoc": "33444111",
+    "nombre": "Juana de Arco",
+    "email": "juanadearco@gmail.com",
+    "telefono": "11-4888-7777",
+    "direccion": "Alicia Moreau de Justo 456",
+    "razonSocial": null
   }
 ]
