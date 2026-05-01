@@ -30,5 +30,13 @@
     "precio": 2200,
     "stockActual": 5,
     "stockMinimo": 10
+  },
+  {
+    "id": 5,
+    "nombre": "Detergente para piso Poet 500ml",
+    "categoria": "Desinfección",
+    "precio": 1200,
+    "stockActual": 1000,
+    "stockMinimo": 50
   }
 ]
