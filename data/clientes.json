@@ -48,5 +48,15 @@
     "telefono": "11-4555-7777",
     "direccion": "Av. Warner Bros 178 - Holllywood",
     "razonSocial": null
+  },
+  {
+    "id": 6,
+    "tipoDoc": "CUIT",
+    "nroDoc": "30-9999999-1",
+    "nombre": null,
+    "email": "harvard@university.com",
+    "telefono": "1-356-7778-8899",
+    "direccion": "Massachusetts Hall, Cambridge, MA 02138, Estados Unidos",
+    "razonSocial": "Harvard University"
   }
 ]
