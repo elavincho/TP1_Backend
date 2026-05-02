@@ -38,5 +38,13 @@
     "precio": 1200,
     "stockActual": 1000,
     "stockMinimo": 50
+  },
+  {
+    "id": 6,
+    "nombre": "Mopa Super Clean",
+    "categoria": "Limpieza Industrial",
+    "precio": 45000,
+    "stockActual": 300,
+    "stockMinimo": 10
   }
 ]
