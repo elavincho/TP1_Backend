@@ -54,5 +54,13 @@
     "precio": 2500,
     "stockActual": 500,
     "stockMinimo": 20
+  },
+  {
+    "id": 8,
+    "nombre": "Mopa Aro",
+    "categoria": "Limpieza Industrial",
+    "precio": 39000,
+    "stockActual": 500,
+    "stockMinimo": 50
   }
 ]
